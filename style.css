@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
+    background-color: #eae7e7;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.wrapper {
+    max-width: 61rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    max-width: 35rem;
+    border: .1rem solid #dedede;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fefafa;
+    padding: 2rem 4rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.total-amount {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin: 2rem;
+}
+
+.card {
+    width: 10rem;
+    text-align: center;
+    padding: 1rem;
+    border: .06rem solid #dedede;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 2px;
+}
+
+.income .title,
+.expense .title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.income-amount, 
+.expense-amount {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: .5rem;
+    text-align: center;
+}
+
+.income-amount {
+    color: green;
+}
+
+.expense-amount {
+    color:rgb(238, 40, 79);
+}
+
+.history-title, 
+.transaction-title {
+    padding-bottom: .7rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    border-bottom: 2px solid #aba7a7;
+}
+
+.history-list__item {
+    padding: .3rem;
+    margin-bottom: .3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .06rem solid #dedede;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px;
+}
+
+.text {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.history-list__item:first-child {
+    margin-top: 1rem;
+}
+
+.deleteBtn {
+    cursor: pointer;
+    padding: .2rem;
+    color: #fff;
+    background-color: rgb(238, 40, 79);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px;
+}
+
+.deleteBtn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #949090;
+
+}
+
+.transaction-title {
+    margin-top: 1.5rem;
+}
+
+.transaction-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    display: inline-block;
+    margin: .65rem 0;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+input[type='text'],
+input[type='number'] {
+    width: 100%;
+    border: .06rem solid #dedede;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px;
+    border-radius: 2px;
+    display: block;
+    padding: .6rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.addButton {
+   cursor: pointer; 
+   width: 100%;
+   margin-top: 1rem;
+   padding: .5rem 2rem;
+   font-size: 1rem;
+   font-weight: 600;
+   background-color: rgb(199, 144, 250);
+   color: #fff;
+   border: .06rem solid #dedede;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px;
+}
+
+
+
+
+
+
+
+
+
